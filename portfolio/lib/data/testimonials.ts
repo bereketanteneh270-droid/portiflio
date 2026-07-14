@@ -1,0 +1,145 @@
+import { Testimonial, Award, BlogPost } from '../types';
+
+export const testimonials: Testimonial[] = [
+  {
+    id: '1',
+    name: 'Yonas Tesfaye',
+    role: 'CEO',
+    company: 'TechHub Addis',
+    avatar: '/images/avatars/yonas.jpg',
+    rating: 5,
+    text: "Bereket doesn't just design — he thinks. The brand identity he created for TechHub didn't just look great, it completely changed how our clients perceived us. Within 3 months of the rebrand, we closed two enterprise deals that had previously stalled. Exceptional work.",
+    logo: '/images/logos/techhub.png',
+  },
+  {
+    id: '2',
+    name: 'Sara Haile',
+    role: 'Founder',
+    company: 'KAMEN Collective',
+    avatar: '/images/avatars/sara.jpg',
+    rating: 5,
+    text: 'Working with Bereket on KAMEN was a transformative experience. He understood our vision of blending Ethiopian heritage with global streetwear before we could fully articulate it ourselves. The result is an identity we are genuinely proud of.',
+  },
+  {
+    id: '3',
+    name: 'Daniel Bekele',
+    role: 'Marketing Director',
+    company: 'Sunshine Trading',
+    avatar: '/images/avatars/daniel.jpg',
+    rating: 5,
+    text: "We hired Bereket for packaging redesign and received so much more. His process is thorough, his communication is excellent, and his design eye is world-class. The new packaging increased our retail shelf presence dramatically.",
+  },
+  {
+    id: '4',
+    name: 'Meron Alemu',
+    role: 'Brand Manager',
+    company: 'ZEMA Music',
+    avatar: '/images/avatars/meron.jpg',
+    rating: 5,
+    text: 'Bereket delivered a brand identity for ZEMA that genuinely captures the soul of East African music. His research process was impressive — he took the time to understand our culture and audience before touching a single design tool.',
+    logo: '/images/logos/zema.png',
+  },
+  {
+    id: '5',
+    name: 'Abel Girma',
+    role: 'Startup Founder',
+    company: 'Orbit Labs',
+    avatar: '/images/avatars/abel.jpg',
+    rating: 5,
+    text: "Fast, professional, and incredibly talented. Bereket turned our rough concept into a polished brand in under two weeks. The logo alone has been commented on by every investor we've pitched. Can't recommend him enough.",
+  },
+];
+
+export const awards: Award[] = [
+  {
+    id: '1',
+    platform: 'Behance',
+    title: 'Featured Creative',
+    year: '2024',
+    icon: 'Star',
+    color: '#1769FF',
+  },
+  {
+    id: '2',
+    platform: 'Dribbble',
+    title: 'Top Shot of the Week',
+    year: '2024',
+    icon: 'Trophy',
+    color: '#EA4C89',
+  },
+  {
+    id: '3',
+    platform: 'Awwwards',
+    title: 'Honorable Mention',
+    year: '2024',
+    icon: 'Award',
+    color: '#FF5C5C',
+  },
+  {
+    id: '4',
+    platform: 'Adobe',
+    title: 'Adobe Certified Expert',
+    year: '2023',
+    icon: 'Shield',
+    color: '#FF0000',
+  },
+  {
+    id: '5',
+    platform: 'Canva',
+    title: 'Verified Creator',
+    year: '2023',
+    icon: 'CheckCircle',
+    color: '#00C4CC',
+  },
+];
+
+export const blogPosts: BlogPost[] = [
+  {
+    id: '1',
+    slug: 'logo-design-process',
+    title: 'My 7-Step Logo Design Process (How I Build Brands That Last)',
+    excerpt:
+      'A behind-the-scenes look at the exact process I use to design logos for startups and enterprises alike — from discovery to final delivery.',
+    coverImage: '/images/blog/logo-process.jpg',
+    category: 'Logo Design',
+    readTime: 8,
+    publishedAt: '2024-11-15',
+    tags: ['Logo Design', 'Process', 'Branding'],
+  },
+  {
+    id: '2',
+    slug: 'color-psychology-branding',
+    title: 'Color Psychology in Branding: Why Your Brand Colors Matter More Than You Think',
+    excerpt:
+      'The science and strategy behind color selection in brand identity design. How different hues trigger different emotions and purchase behaviors.',
+    coverImage: '/images/blog/color-psychology.jpg',
+    category: 'Color Theory',
+    readTime: 6,
+    publishedAt: '2024-10-28',
+    tags: ['Color Theory', 'Branding', 'Psychology'],
+  },
+  {
+    id: '3',
+    slug: 'typography-brand-identity',
+    title: 'Typography as Brand Identity: Choosing Fonts That Speak for Your Business',
+    excerpt:
+      "How the right typeface can communicate your brand's personality before you write a single word. A practical guide to brand typography.",
+    coverImage: '/images/blog/typography.jpg',
+    category: 'Typography',
+    readTime: 7,
+    publishedAt: '2024-10-10',
+    tags: ['Typography', 'Branding', 'Design'],
+  },
+  {
+    id: '4',
+    slug: 'packaging-design-roi',
+    title: 'Packaging Design ROI: How Good Design Increases Sales',
+    excerpt:
+      'Real data on how packaging redesigns have boosted sales for consumer brands. Plus, the design principles that make packaging irresistible.',
+    coverImage: '/images/blog/packaging.jpg',
+    category: 'Packaging',
+    readTime: 5,
+    publishedAt: '2024-09-22',
+    tags: ['Packaging', 'ROI', 'Retail'],
+  },
+];
