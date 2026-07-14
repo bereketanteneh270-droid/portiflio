@@ -46,9 +46,9 @@ export default function Awards() {
               >
                 <div
                   className="w-14 h-14 rounded-2xl mx-auto mb-4 flex items-center justify-center transition-all duration-300 group-hover:scale-110"
-                  style={{ background: `${award.color}15` }}
+                  style={{ background: `${award.color}15`, color: award.color }}
                 >
-                  <Icon size={24} style={{ color: award.color }} />
+                  <Icon size={24} />
                 </div>
                 <div className="text-white font-bold text-sm mb-1">{award.platform}</div>
                 <div className="text-[#A5A5A5] text-xs leading-4 mb-2">{award.title}</div>

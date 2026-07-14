@@ -190,7 +190,7 @@ export default function Contact() {
                     whileTap={{ scale: 0.95 }}
                     className="w-11 h-11 rounded-xl border border-white/[0.08] flex items-center justify-center text-[#A5A5A5] hover:text-white hover:border-[#5E3BFF]/40 bg-[#101010] transition-all"
                   >
-                    <Icon size={16} />
+                    <Icon />
                   </motion.a>
                 ))}
               </div>
