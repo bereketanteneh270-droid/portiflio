@@ -5,6 +5,7 @@ import CustomCursor from '@/components/layout/CustomCursor';
 import SmoothScroll from '@/components/layout/SmoothScroll';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
+import WhatsAppButton from '@/components/layout/WhatsAppButton';
 
 export const metadata: Metadata = {
   title: 'Bereket Anteneh | Graphic Designer & Brand Strategist',
@@ -95,6 +96,7 @@ export default function RootLayout({
       <body className="bg-[#050505] text-white min-h-screen overflow-x-hidden">
         <LoadingScreen />
         <CustomCursor />
+        <WhatsAppButton />
         <SmoothScroll>
           <Navbar />
           <main>{children}</main>
